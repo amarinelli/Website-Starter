@@ -2,11 +2,17 @@
 <html>
 
   <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-	
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.1/fullcalendar.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.1/fullcalendar.print.css">
     <link rel="stylesheet" href="css/main.css">
-    
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src='js/moment.min.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.1/fullcalendar.min.js"></script>
+    <script src='js/gcal.js'></script>
+    <script src='js/main.js'></script>
   </head>
 
   <body>
@@ -23,57 +29,18 @@
         </ul>
       </div>
     </div>
-
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Chris :)</h1>
-        <p>Happy Birthday buddy</p>
-        <a href="#">Learn More</a>
-      </div>
-    </div> 
-    <div class="neighborhood-guides">
-        <div class="container">
-            <h2>Images</h2>
-            <p>These are some nice photos of stuff:</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                      <img src="http://goo.gl/tDp2CP" >                      
-                    </div>                    
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                      <img src="http://goo.gl/xCwrm7" >                      
-                    </div>                    
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                      <img src="http://goo.gl/tDp2CP" >                      
-                    </div>                    
-                </div>                
-            </div>
-        </div>
+    <div class="page-header">
+      <h1>Mister Langley's Wiki<small>  welcome students...</small></h1>
     </div>
-    <div class="learn-more">
-	  <div class="container">
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Me</h3>
-			<p>Insert content yo!</p>
-			<p><a href="#">Learn more</a></p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Teaching</h3>
-			<p>Insert content yo!</p>
-			<p><a href="#">Learn more</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Stuff</h3>
-			<p>Insert content yo!</p>
-			<p><a href="#">Learn more</a></p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1">MENU
+        </div>
+        <div class="col-md-11">
+          <div id='calendar'>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
