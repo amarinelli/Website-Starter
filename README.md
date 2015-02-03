@@ -1,4 +1,4 @@
 Website-Starter
 ===============
 
-Personal webpage for general content
+Academic webpage for Mister Langley

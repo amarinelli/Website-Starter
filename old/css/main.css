@@ -1,0 +1,41 @@
+h1 {
+  font-size: 600%;
+}
+
+.page-header {
+  background-color: rgb(255, 219, 219);
+}
+
+.logo {
+  float:left;
+  margin-top: 29px;
+  margin-right: 15px;
+}
+
+.title {
+  padding-top: 15px;
+}
+
+.subtitle {
+  font-color: grey;
+  font-size: x-large;
+}
+
+.menu {
+  background-color: rgb(231, 228, 228);
+}
+
+.menu li {
+  display: block;
+}
+
+.mainContent {
+  margin-top: -26px;
+}
+
+#calendarContent {
+  display: block;
+	max-width: 900px;
+	margin: 0 auto;
+  margin-top: 25px;
+}
